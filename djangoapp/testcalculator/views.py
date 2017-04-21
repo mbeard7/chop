@@ -1,7 +1,8 @@
 from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
 
-# Create your views here.
+# Views currently simply render by using each html file as a template
+# May need to modify if unable to pass what's needed to the front end
 
 def home(request):
 

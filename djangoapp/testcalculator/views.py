@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 def home(request):
 
-    return render(request,'index.html')
+    return render(request,'template.html')
 
 def about(request):
 
@@ -14,3 +14,11 @@ def about(request):
 def references(request):
 
     return render(request,'reference.html')
+
+def calculator (request):
+
+    return render(request,'calculator.html')
+
+def curriculum (request):
+
+    return render(request,'curriculum.html')

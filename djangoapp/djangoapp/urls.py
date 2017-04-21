@@ -22,5 +22,7 @@ urlpatterns = [
     url(r'^home/', views.home),
     url(r'^about/', views.about),
     url(r'^references/', views.references),
+    url(r'^curriculum/', views.curriculum),
+    url(r'^calculator/', views.calculator),
     url(r'^admin/', admin.site.urls),
 ]

@@ -14,7 +14,37 @@
 
 
         <!-- Local stylesheet built on top of bootstrap CSS -->
-        <link rel="stylesheet" type="text/css" href="customstyle.css">
+        <style>
+            html,body {
+                height:100vh;
+                margin: 0 auto;
+                padding-top: 00px;
+            }
+
+            body {
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+
+            a {
+                color: #3973ac; /* Offset Dark Blue for links */
+            }
+
+            .bg-header {
+                background-color: #ffffff; /* White */
+                color: #2d5986; /* Dark Blue */
+            }
+
+            .bg-body {
+                background-color: #ecf2f9; /* Light Blue */
+                color: #000000; /* Black */
+                height: 70vh;
+                overflow: auto;
+            }
+
+            .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+                background-color: #d8e5f3;
+            }
+        </style>
 
 
     </head>
@@ -35,8 +65,12 @@
         </div>
 
         <div class="container-fluid bg-body">
-            <div class="row" style="padding: 10vh">
-                <h4 class="text-center"><a href = "http://otd.pedsvalue.com/">Access the Tool</a></h4>
+            <div class="row" style="padding-top: 15vh">
+                <h3 class="text-center">Welcome to the pediatric resident value curriculum! </h3>
+                <h4>&nbsp;</h4>
+                <h3 class="text-center"><a href = "http://otd.pedsvalue.com/">Access the Tool</a></h3>
+                <!-- Once login set up, change to the language below -->
+                <!-- <h4 class="text-center">Please <a href = "http://otd.pedsvalue.com/">log in</a> to access the site.</h4>-->
             </div>
         </div>
 

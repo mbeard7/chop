@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e55a063-689d-4ed4-9f16-7bfcc372b34e" name="Default" comment="Working base website">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/calculator.html" afterPath="$PROJECT_DIR$/templates/calculator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/curriculum.html" afterPath="$PROJECT_DIR$/templates/curriculum.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,17 +23,17 @@
       <file leaf-file-name="calculator.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/calculator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+            <state relative-caret-position="255">
+              <caret line="110" column="91" lean-forward="false" selection-start-line="110" selection-start-column="91" selection-end-line="110" selection-end-column="91" />
               <folding>
-                <element signature="n#script#2;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#81998#82004#1#HTML" expanded="true" />
+                <element signature="e#84694#84700#1#HTML" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#82278#82284#0#HTML" expanded="true" />
+                <element signature="e#84974#84980#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#82554#82560#0#HTML" expanded="true" />
+                <element signature="e#85250#85256#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1492907110000" expanded="false" signature="79734:81318" ph="..." />
+                <marker date="1492909218000" expanded="false" signature="787:40567" ph="..." />
+                <marker date="1492909218000" expanded="false" signature="82430:84014" ph="..." />
               </folding>
             </state>
           </provider>
@@ -1002,17 +1001,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/calculator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+        <state relative-caret-position="255">
+          <caret line="110" column="91" lean-forward="false" selection-start-line="110" selection-start-column="91" selection-end-line="110" selection-end-column="91" />
           <folding>
-            <element signature="n#script#2;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#81998#82004#1#HTML" expanded="true" />
+            <element signature="e#84694#84700#1#HTML" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#82278#82284#0#HTML" expanded="true" />
+            <element signature="e#84974#84980#0#HTML" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#82554#82560#0#HTML" expanded="true" />
+            <element signature="e#85250#85256#0#HTML" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1492907110000" expanded="false" signature="79734:81318" ph="..." />
+            <marker date="1492909218000" expanded="false" signature="787:40567" ph="..." />
+            <marker date="1492909218000" expanded="false" signature="82430:84014" ph="..." />
           </folding>
         </state>
       </provider>

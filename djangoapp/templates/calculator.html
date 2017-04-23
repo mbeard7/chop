@@ -113,9 +113,11 @@
                 //make sure we have 1 decimal point
 
                 var content = '<div class="progress-bar progress-bar-striped" role="progressbar"';
-                content += 'aria-valuenow="'+ perAmount + '" aria-valuemin="0" aria-valuemax="100"'
+                content += 'aria-valuenow="'+ perAmount + '" aria-valuemin="0" aria-valuemax="100"';
                 content += 'style="height: ' + perAmount + '%;">';
-                content += '<span class="sr-only">' + perAmount + '% Complete</span> </div>';
+                content += '<span ></span> </div>';
+
+                document.getElementById('goal').innerHTML = 'Total $' + formatCurrency(currentCost);
 
                 document.getElementById('thermometer').innerHTML = content;
             }
@@ -192,6 +194,9 @@
                 insertTable();
                 thermometer();
 
+                $('[data-toggle="popover"]').popover();
+
+
             });
 
         </script>
@@ -232,7 +237,7 @@
 
             .progress-bar-vertical {
                 width: 30px;
-                min-height: 45vh;
+                min-height: 42vh;
                 display: flex;
                 align-items: flex-end;
             }
@@ -340,11 +345,13 @@
                 </div>
                 <div class="col-sm-1"></div>
                 <div class="col-sm-3">
+                    <div id="goal" style="font-size: x-large"></div>
                     <div class="progress progress-bar-vertical active" id="thermometer">
                     </div>
                 </div>
                 <div class="col-sm-1"></div>
             </div>
+
         </div>
 
         <footer class="container-fluid bg-header text-center">

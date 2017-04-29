@@ -1,12 +1,7 @@
-from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
-from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
-from django.template import loader
-
 
 # Views currently simply render by using each html file as a template
-# May need to modify if unable to pass what's needed to the front end
 
 def home(request):
     if request.user.is_authenticated():

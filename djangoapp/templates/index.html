@@ -61,6 +61,11 @@
                 <li><a href='/curriculum/'>CURRICULUM TOOLS</a></li>
                 <li><a href='/calculator/'>COST CALCULATOR</a></li>
                 <li><a href='/references/'>REFERENCES</a></li>
+                {% if authenticated %}
+                <li><a href='/logout/'>LOGOUT</a></li>
+                {%  else %}
+                <li><a href='/login/'>LOGIN</a></li>
+                {% endif %}
             </ul>
         </div>
 
@@ -68,9 +73,12 @@
             <div class="row" style="padding-top: 15vh">
                 <h3 class="text-center">Welcome to the pediatric resident value curriculum! </h3>
                 <h4>&nbsp;</h4>
-                <h3 class="text-center"><a href = "/calculator/">Access the Tool</a></h3>
-                <!-- Once login set up, change to the language below -->
-                <!-- <h4 class="text-center">Please <a href = "http://otd.pedsvalue.com/">log in</a> to access the site.</h4>-->
+                {% if authenticated %}
+                    <h3 class="text-center"><a href = "/logout/">Logout</a></h3>
+                {%  else %}
+                    <h3 class="text-center"><a href = "/login/">Log in to access the tool</a></h3>
+                {% endif %}
+
             </div>
         </div>
 

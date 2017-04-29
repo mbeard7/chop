@@ -15,10 +15,10 @@ Including another URLconf
 """
 
 # All we do is give each of the five pages from views a url
-
+from django.contrib import admin
 from testcalculator import views
 from django.conf.urls import url
-from django.contrib import admin
+from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     url(r'^$', views.home),
@@ -28,4 +28,7 @@ urlpatterns = [
     url(r'^curriculum/', views.curriculum),
     url(r'^calculator/', views.calculator),
     url(r'^admin/', admin.site.urls),
+    url(r'^login/$', auth_views.login, {'template_name': 'registration/login.html'}, name='login'),
+    url(r'^logout/$', auth_views.logout, {'next_page': '/home/'}, name='logout'),
+    url(r'^accounts/login/$', auth_views.login, {'template_name': 'registration/login.html'}),
 ]

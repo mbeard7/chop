@@ -319,6 +319,11 @@
                 <li><a href='/curriculum/'>CURRICULUM TOOLS</a></li>
                 <li><a href='/calculator/'>COST CALCULATOR</a></li>
                 <li><a href='/references/'>REFERENCES</a></li>
+                {% if authenticated %}
+                <li><a href='/logout/'>LOGOUT</a></li>
+                {%  else %}
+                <li><a href='/login/'>LOGIN</a></li>
+                {% endif %}
             </ul>
         </div>
 

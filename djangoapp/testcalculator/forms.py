@@ -4,13 +4,16 @@ from django.contrib.auth.models import User
 from django.utils.translation import ugettext_lazy as _
 
 insChoices = (
-    ('CHOP', "Childrens Hospital of Philadelphia"),
+    ('CHOP', "Children's Hospital of Philadelphia"),
     ('CCHMC', "Cincinnati Children's Hospital Medical Center"),
     ('Other', "Other"),
 )
 
 class SignUpForm(UserCreationForm):
-    institution = forms.ChoiceField(choices=insChoices)
+    institution = forms.ChoiceField(choices=insChoices, required=True)
+    first_name = forms.CharField(max_length=30, required=True)
+    last_name = forms.CharField(max_length=30, required=True)
+    email = forms.EmailField(max_length=254, required=True)
 
     class Meta:
         model = User

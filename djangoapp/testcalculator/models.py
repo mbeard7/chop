@@ -4,10 +4,6 @@ from django.db import models
 
 # Create your models here.
 
-class institution(models.Model):
-    id = models.AutoField(primary_key=True)
-    name = models.CharField(null=False,unique=True,max_length=240)
-
 class test(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(null=False,unique=True,max_length=240)

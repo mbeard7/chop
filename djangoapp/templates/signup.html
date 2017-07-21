@@ -78,7 +78,7 @@
             <div class="row">
                 <div class="col-sm-3">
                 </div>
-                <div class="col-sm-6" style="font-size: medium; padding-top: 3vh padding-left: 15vh;">
+                <div class="col-sm-6" style="font-size: medium; padding-top: 3vh">
                     <form method="post">
                         {% csrf_token %}
                         {% for field in form %}
@@ -97,6 +97,15 @@
                     </form>
                 </div>
                 <div class="col-sm-3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center" style="font-size: medium">
+                    <p>
+                        If you've forgotten your password,
+                        <a href="mailto:Maya.Dewan@cchmc.org?Subject=Pediatric Value Curriculum Account" target="_top">
+                            email us</a>.
+                    </p>
                 </div>
             </div>
         </div>
